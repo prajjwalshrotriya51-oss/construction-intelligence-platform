@@ -330,7 +330,7 @@ with st.sidebar:
         value=st.secrets.get("GEMINI_API_KEY", "") if hasattr(st, "secrets") else "",
         help="Stored only in this session. Leave blank for demonstration mode.",
     )
-    model_name = st.selectbox("Model", ["gemini-2.5-flash", "gemini-2.5-pro", "gemini-2.0-flash"], index=0)
+    model_name = st.selectbox("Model", ["gemini-3.8-flash", "gemini-2.5-pro", "gemini-2.0-flash"], index=0)
     client = get_client(api_key.strip()) if api_key else None
     DEMO = client is None
     if DEMO:
