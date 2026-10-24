@@ -4,7 +4,7 @@
 
 An AI-powered Streamlit application that combines multimodal vision analysis (Google Gemini), a rule-based valuation engine and a weather-aware engineering assistant for construction sites.
 
-**Live demo:** `<https://construction-intelligence-platform-j9d7qxofu9vsignqupnlbt.streamlit.app/>`
+**Live demo:** https://construction-intelligence-platform-j9d7qxofu9vsignqupnlbt.streamlit.app/
 
 ---
 
